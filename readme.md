@@ -1,21 +1,3 @@
-Wagtail demo project
-=======================
-
-This is a demonstration project for the amazing [Wagtail CMS](https://github.com/wagtail/wagtail).
-
-The demo site is designed to provide examples of common features and recipes to introduce you to Wagtail development. Beyond the code, it will also let you explore the admin / editorial interface of the CMS.
-
-Note we do _not_ recommend using this project to start your own site - the demo is intended to be a springboard to get you started. Feel free to copy code from the demo into your own project.
-
-# Installation
-
-- [Vagrant](#setup-with-vagrant)
-- [Docker](#setup-with-docker)
-- [Virtualenv](#setup-with-virtualenv)
-- [Heroku](#deploy-to-heroku)
-
-If you're new to Python and/or Django, we suggest you run this project on a Virtual Machine using Vagrant or Docker (whichever you're most comfortable with). Both Vagrant and Docker will help resolve common software dependency issues. Developers more familiar with
-virtualenv and traditional Django app setup instructions should skip to [Setup with virtualenv](#setup-with-virtualenv).
 
 Setup with Virtualenv
 ---------------------
