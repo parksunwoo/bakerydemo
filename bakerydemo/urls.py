@@ -48,4 +48,5 @@ if settings.DEBUG:
 
 urlpatterns += [
     url(r'', include(wagtail_urls)),
+    url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
 ]

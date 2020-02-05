@@ -12,7 +12,7 @@
                 {% if page.introduction %}
                     <p class="intro">{{ page.introduction }}</p>
                 {% endif %}
-
+                <br><br>
                 <div class="blog-meta">
                     {% if page.authors %}
                         <div class="blog-avatars">
@@ -32,12 +32,15 @@
 
                 {{ page.body }}
 
+                <br>
                 {% if page.get_tags %}
                     Tagged with:<br />
                     {% for tag in page.get_tags  %}
                         <a href="{{ tag.url }}" class="btn btn-sm">{{ tag }}</a>
                     {% endfor %}
                 {% endif %}
+
+
             </div>
         </div>
     </div>
